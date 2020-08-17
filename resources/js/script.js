@@ -83,4 +83,16 @@ $('a[href*="#"]')
     }, {
         offset: '50%'
     });
+
+    /* Mobile Navigation */
+    $(".js--nav-icon").click(function(){
+       var nav = $(".js--main-nav");
+       nav.slideToggle(200);
+       var name = $(".js--icon").attr("name");
+       if (name =="menu") {
+          $(".js--icon").attr("name", "close");
+       } else {
+          $(".js--icon").attr("name", "menu");
+       }
+    });
 });
