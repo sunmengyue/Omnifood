@@ -595,3 +595,19 @@ footer p {
 .ins:hover {
     color: #c32aa3
 }
+
+/*------------------------------------*/
+/* Animations */
+/*------------------------------------*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+}
+
+.js--wp-1.animated__animated, 
+.js--wp-2.animated__animated, 
+.js--wp-3.animated__animated {
+    opacity: 1;
+
+}
